@@ -5,7 +5,15 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorButton</item>
     </style>
-
+    <style name="SwitchTheme" >
+        <item name="trackTint">@color/colorButton</item>
+        <item name= "colorSwitchThumbNormal">#EDFA7E36</item>
+    </style>
+    <style name="SwitchStyle" >
+        <item name="android:thumb">@drawable/ic_favorite_heart</item>
+        <item name="colorSwitchThumbNormal">#EDFA7E36</item>
+        <item name="colorControlActivated">@color/colorButton</item>
+    </style>
 </resources>
