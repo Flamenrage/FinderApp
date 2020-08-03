@@ -1,10 +1,11 @@
-package com.example.finderapp
+package com.example.finderapp.Activities
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.example.finderapp.Adapters.CommonAdapter
 import com.example.finderapp.Implementation.Authorization
+import com.example.finderapp.R
 import kotlinx.android.synthetic.main.activity_finder.*
 
 class FinderActivity : AppCompatActivity() {

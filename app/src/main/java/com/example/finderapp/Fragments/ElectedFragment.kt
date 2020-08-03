@@ -1,4 +1,4 @@
-package com.example.finderapp
+package com.example.finderapp.Fragments
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.example.finderapp.Adapters.FinderAdapter
 import com.example.finderapp.Implementation.Elected
+import com.example.finderapp.R
 
 class ElectedFragment : Fragment() {
 

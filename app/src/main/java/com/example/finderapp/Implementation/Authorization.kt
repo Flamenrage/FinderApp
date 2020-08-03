@@ -7,7 +7,7 @@ import com.android.volley.RequestQueue
 import com.android.volley.Response
 import com.example.finderapp.Data.DBdata
 import com.example.finderapp.Queries.QueryJson
-import com.example.finderapp.FinderActivity
+import com.example.finderapp.Activities.FinderActivity
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import org.json.JSONObject

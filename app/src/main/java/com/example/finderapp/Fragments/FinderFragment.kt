@@ -1,4 +1,4 @@
-package com.example.finderapp
+package com.example.finderapp.Fragments
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -12,6 +12,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.Volley
 import com.example.finderapp.Implementation.Searching
+import com.example.finderapp.R
 import kotlinx.android.synthetic.main.fragment_finder.*
 
 class FinderFragment : Fragment() {

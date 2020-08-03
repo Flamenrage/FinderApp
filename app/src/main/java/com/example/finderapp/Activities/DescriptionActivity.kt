@@ -1,4 +1,4 @@
-package com.example.finderapp
+package com.example.finderapp.Activities
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -11,6 +11,7 @@ import com.bumptech.glide.Glide
 import com.example.finderapp.Implementation.Elected
 import com.example.finderapp.Implementation.Description
 import com.example.finderapp.Data.InfoRepository
+import com.example.finderapp.R
 import kotlinx.android.synthetic.main.activity_info.*
 
 class DescriptionActivity : AppCompatActivity() {
@@ -48,9 +49,15 @@ class DescriptionActivity : AppCompatActivity() {
 
     private fun setDataViews(queue: RequestQueue) {
         recyclerViewId.visibility = View.GONE
-        val repository = InfoRepository(intent?.extras?.getInt(ID), intent?.extras?.getString(NAME), intent?.extras?.getString(DESCRIPTION),
-            intent?.extras?.getString(LANGUAGE), intent?.extras?.getInt(FORKS_COUNT), intent?.extras?.getInt(STARGAZERS_COUNT),
-            intent?.extras?.getString(OWNER_LOGIN), intent?.extras?.getString(OWNER_AVATAR_URL), intent?.extras?.getString(COMMITS_URL)
+        val repository = InfoRepository(intent?.extras?.getInt(ID), intent?.extras?.getString(
+            NAME
+        ), intent?.extras?.getString(DESCRIPTION),
+            intent?.extras?.getString(LANGUAGE), intent?.extras?.getInt(
+                FORKS_COUNT
+            ), intent?.extras?.getInt(STARGAZERS_COUNT),
+            intent?.extras?.getString(OWNER_LOGIN), intent?.extras?.getString(
+                OWNER_AVATAR_URL
+            ), intent?.extras?.getString(COMMITS_URL)
         )
         textViewNameId.text = repository.name
         Glide.with(this).load(repository.ownerAvatarUrl).into(imageViewId)

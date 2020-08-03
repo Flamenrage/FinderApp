@@ -9,7 +9,7 @@ import android.widget.Switch
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.finderapp.DescriptionActivity
+import com.example.finderapp.Activities.DescriptionActivity
 import com.example.finderapp.Implementation.Elected
 import com.example.finderapp.Data.InfoRepository
 import com.example.finderapp.R

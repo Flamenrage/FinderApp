@@ -3,8 +3,8 @@ package com.example.finderapp.Adapters
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.example.finderapp.ElectedFragment
-import com.example.finderapp.FinderFragment
+import com.example.finderapp.Fragments.ElectedFragment
+import com.example.finderapp.Fragments.FinderFragment
 
 class CommonAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
 

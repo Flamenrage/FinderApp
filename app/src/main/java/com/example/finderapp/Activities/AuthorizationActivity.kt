@@ -1,4 +1,4 @@
-package com.example.finderapp
+package com.example.finderapp.Activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.android.volley.toolbox.Volley
 import com.example.finderapp.Implementation.Authorization
+import com.example.finderapp.R
 import kotlinx.android.synthetic.main.activity_authorization.*
 
 class AuthorizationActivity : AppCompatActivity() {
